@@ -27,9 +27,9 @@ module.exports = function (env = {}) {
       hot: true,
     },
     output: {
-      path: path.resolve(__dirname, 'public'),
+      path: path.resolve(__dirname, 'docs'),
       filename: 'bundle.js',
-      publicPath: '/',
+      publicPath: './',
       clean: true,
     },
     // resolve: {
